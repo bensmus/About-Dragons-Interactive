@@ -60,3 +60,9 @@ p {
 .arrow:hover {
     background-color: #d6d6d6;
 }
+
+#ancient-dragon-image {
+    width: 499px;
+    height: 301px;
+    object-fit: cover;
+}
