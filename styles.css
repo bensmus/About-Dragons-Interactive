@@ -1,0 +1,62 @@
+#dragon-image {
+    width: 650px;
+    height: 750px;
+
+    /* preserve the aspect ratio of image */
+    object-fit: cover;
+
+    /* move the image relative 
+    to the content box.
+    * 45 pixels to the left
+    */
+    object-position: -45px;
+}
+
+h1 {
+    font-family: "Metal Mania", cursive;
+    font-size: 250%;
+}
+
+p {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 130%;
+    font-weight: bolder;
+}
+
+#right {
+    position: relative;
+    left: 790px;
+    top: -825px;
+    width: 600px;
+}
+
+#left {
+    position: relative;
+    left: 40px;
+}
+
+#next {
+    position: absolute;
+    top: 710px;
+    right: 150px;
+}
+
+#prev {
+    position: absolute;
+    top: 710px;
+    right: 550px;
+}
+
+#slideshow-description {
+    position: absolute;
+    top: 710px;
+    right: 300px;
+}
+
+.arrow {
+    font-size: 300%
+}
+
+.arrow:hover {
+    background-color: #d6d6d6;
+}

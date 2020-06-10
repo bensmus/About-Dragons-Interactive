@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Dragons</title>
+    <link href='styles.css' rel=stylesheet>
+    <link href='https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500&family=Metal+Mania&display=swap' rel='stylesheet'>
+</head>
+
+<!-- if there is no body, it seems to be defined implicitly, so let's add one -->
+<body>
+    <div id='left'>
+    <!-- it matters where you put your script file...
+    it can only work properly when all the html elements have loaded -->
+
+        <h1>
+            About Dragons 
+        </h1>
+        <p>
+            Dragons are the epitome of power and elegance...
+        </p>
+        <img id='dragon-image' src='dragon-0.png'>
+        <script src='hover-src.js'></script>
+    </div>
+
+    <div id='right'>
+        <p>
+            Draconic creatures are first described in the mythologies of the ancient Near East and appear in ancient Mesopotamian art and literature. 
+            Stories about storm-gods slaying giant serpents occur throughout nearly all Indo-European and Near Eastern mythologies. 
+            Famous prototypical draconic creatures include the <i>mušḫuššu</i> of ancient Mesopotamia; <i>Apep</i> in Egyptian mythology; <i>Vṛtra</i> in the Rigveda; 
+            the <i>Leviathan</i> in the Hebrew Bible; <i>Python</i>, <i>Ladon</i>, and the <i>Lernaean Hydra</i> in Greek mythology; 
+            <i>Jörmungandr</i>, <i>Níðhöggr</i>, and <i>Fafnir</i> in Norse mythology; and the <i>dragon from Beowulf</i>.
+        </p>
+
+        <br> <br>
+        <h1>
+            Prototypical Draconic Creatures
+        </h1>
+
+
+        <!-- defining all of the elements so that the javascript knows what to fill in -->
+        <p id='slideshow-description'></p>
+        <img id='ancient-dragon-image' src='emoji1.png'>
+
+         <!-- just using a unicode arrow -->
+         <a class='arrow' id='next'> ❯ </a>
+         <a class='arrow' id='prev'> ❮ </a>
+
+         <script src='slideshow.js'></script>
+
+
+
+    </div>
+</body>
+
+</html>
